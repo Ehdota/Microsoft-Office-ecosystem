@@ -1,0 +1,554 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Все приложения из пакета Microsoft Office</title>
+  <meta name="description" content="Краткий обзор основных приложений Microsoft Office: Word, Excel, PowerPoint и других сервисов и приложений экосистемы Microsoft 365.">
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --accent:#0067b8;
+      --muted:#6b7280;
+      --glass: rgba(255,255,255,0.6);
+      --radius:14px;
+      font-family: Inter, system-ui, -apple-system, "Arial", Arial, "Arial", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#eef3fb);color:#0f1724}
+    a{color:inherit}
+
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 28px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#004a8f);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{font-size:22px;margin:0}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    nav{display:flex;gap:12px;align-items:center}
+    .search{padding:8px 12px;border-radius:10px;border:1px solid rgba(15,23,36,0.06);background:var(--card);display:flex;align-items:center;gap:8px}
+    .search input{border:0;outline:0;background:transparent;width:220px}
+
+    main{padding:18px 28px 80px}
+    .intro{display:flex;gap:18px;align-items:flex-start;margin-bottom:16px}
+    .intro .summary{max-width:700px}
+    .intro img{width:140px;height:100px;border-radius:12px;object-fit:cover}
+
+    .grid-title{display:flex;justify-content:space-between;align-items:center;margin:10px 0}
+
+    section.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+
+    .card{background:var(--card);border-radius:12px;padding:14px;box-shadow:0 6px 18px rgba(16,24,40,0.06);display:flex;flex-direction:column;gap:10px;min-height:140px;cursor:pointer}
+    .card .icon{width:56px;height:56px;border-radius:10px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700}
+    .card h3{margin:0;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:13px}
+
+    .details { display:none; background:var(--card); border-radius:12px; padding:20px; box-shadow:0 6px 18px rgba(16,24,40,0.06); margin-top:18px }
+    .details.active { display:block }
+    .details h2{margin-top:0;color:var(--accent)}
+    .app-img{width:100%;max-width:720px;border-radius:10px;margin:14px 0}
+    .back-btn{display:inline-block;margin:10px 0;padding:8px 12px;border-radius:8px;background:rgba(0,0,0,0.06);text-decoration:none}
+
+    footer{padding:16px 28px;background:transparent;color:var(--muted);display:flex;justify-content:space-between;align-items:center;margin-top:28px}
+
+    .hidden-text { color: white; font-size:0; height:0; overflow:hidden; display:block }
+
+    @media (max-width:640px){
+      header{padding:12px}
+      main{padding:12px}
+      .search input{width:120px}
+      .intro{flex-direction:column}
+      section.grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <div class="logo">MS</div>
+      <div>
+        <h1>Все приложения Microsoft Office</h1>
+        <p class="lead">Краткий обзор основных приложений и сервисов, входящих в экосистему Microsoft 365 / Office.</p>
+      </div>
+    </div>
+
+    
+  </header>
+
+  <main>
+    <div class="intro">
+      <div class="summary">
+        <h2>Что здесь</h2>
+        <p>На этой странице собрано описание популярных приложений из набора Microsoft Office / Microsoft 365: классические настольные приложения, облачные сервисы и утилиты, которые часто используются в работе и учебе. На данной странице собраны подробные описания популярных приложений и сервисов, входящих в состав набора Microsoft Office и Microsoft 365 — ведущих решений для работы, учебы и повседневной деятельности. Эти инструменты охватывают широкий спектр задач — от создания и редактирования документов до обмена файлами, коммуникации и совместной работы в команде. В их арсенале есть как классические настольные приложения, такие как Word, Excel и PowerPoint, так и облачные сервисы и утилиты, позволяющие работать онлайн, слушать, делиться информацией и автоматизировать процессы. Именно благодаря такому набору инструментов современная работа стала более гибкой, продуктивной и эффективной, а возможности обмена данными и взаимодействия с коллегами или однокурсниками расширились до глобальных масштабов. Нажмите на карточку приложения, чтобы увидеть подробную информацию.</p>
+      </div>
+      <p><img src="https://www.nav-it.ru/upload/medialibrary/4c3/4c3bc3f81ba2e4ff308a61518a6f3fff.png" alt="Microsoft Office" style="width:440px;height:200px;border-radius:10px;object-fit:cover"><p>
+    </div>
+
+    <div class="grid-title">
+      <h2>Приложения</h2>
+    </div>
+
+ <header>
+    <nav>
+      <div class="search" role="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden><path d="M21 21l-4.35-4.35" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <input id="site-search" placeholder="Поиск по приложениям..." aria-label="Поиск по приложениям">
+      </div>
+    </nav>
+ </header>
+    
+    <section class="grid" id="apps-grid">
+
+      <div class="card" data-app="word">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#2b579a,#1e4e8a);color:white">W</div>
+          <div>
+            <h3>Word</h3>
+            <p class="muted">Текстовый процессор для документов, отчётов и писем.</p>
+            <span class="hidden-text">ворд</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="excel">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#217346,#166434);color:white">X</div>
+          <div>
+            <h3>Excel</h3>
+            <p class="muted">Табличные вычисления, анализ данных и диаграммы.</p>
+            <span class="hidden-text">эксель иксель</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="powerpoint">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#d35400,#b34700);color:white">P</div>
+          <div>
+            <h3>PowerPoint</h3>
+            <p class="muted">Создание слайд-презентаций и визуальных отчётов.</p>
+            <span class="hidden-text">павер поинт повер поинт</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="outlook">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#0078d4,#005a9e);color:white">O</div>
+          <div>
+            <h3>Outlook</h3>
+            <p class="muted">Электронная почта, календарь и контакты.</p>
+            <span class="hidden-text">аутлук оутлук</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="onenote">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#7719aa,#5b0f86);color:white">N</div>
+          <div>
+            <h3>OneNote</h3>
+            <p class="muted">Электронный блокнот для заметок, рисунков и идей.</p>
+            <span class="hidden-text">ванноут ван нот оне ноте</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="access">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#4e0000,#612121);color:white">A</div>
+          <div>
+            <h3>Access</h3>
+            <p class="muted">Система управления базами данных (Windows).</p>
+            <span class="hidden-text">аксис асес аксесс</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="publisher">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#2B88D8,#106EBE);color:white">Pu</div>
+          <div>
+            <h3>Publisher</h3>
+            <p class="muted">Быстрая верстка буклетов и печатной продукции (Windows).</p>
+            <span class="hidden-text">публишер паблишер</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="teams">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#6264a7,#4b3f8c);color:white">T</div>
+          <div>
+            <h3>Teams</h3>
+            <p class="muted">Коммуникации и совместная работа: чаты, звонки и встречи.</p>
+            <span class="hidden-text">тимс</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="onedrive">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#0078d4,#0086ff);color:white">OD</div>
+          <div>
+            <h3>OneDrive</h3>
+            <p class="muted">Облачное хранилище и синхронизация файлов.</p>
+            <span class="hidden-text">оне драйв ван драйв</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="sharepoint">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#00B294,#008272);color:white">SP</div>
+          <div>
+            <h3>SharePoint</h3>
+            <p class="muted">Платформа для совместной работы и внутренних порталов.</p>
+            <span class="hidden-text">шер поинт шаре поинт</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="visio">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#00a4ef,#0078b3);color:white">V</div>
+          <div>
+            <h3>Visio</h3>
+            <p class="muted">Инструмент для диаграмм и блок-схем.</p>
+            <span class="hidden-text">висио вижио</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="project">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#107C41,#0B6623);color:white">Pr</div>
+          <div>
+            <h3>Project</h3>
+            <p class="muted">Управление проектами и графиками.</p>
+            <span class="hidden-text">проджект прожект</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" data-app="yammer">
+        <div style="display:flex;gap:12px;align-items:center">
+          <div class="icon" aria-hidden style="background:linear-gradient(135deg,#0067b8,#004a8f);color:white">Y</div>
+          <div>
+            <h3>Yammer</h3>
+            <p class="muted">Корпоративная социальная сеть.</p>
+            <span class="hidden-text">ямер яммер</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <div id="app-word" class="details" data-appdetail="word">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Word</h2>
+      <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzw4zM8bYkbqu4rxIuBXcIq1vIZKSC6LIyAg&s" alt="Microsoft Word" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Word — это популярное программное обеспечение для работы с текстами, разработанное компанией Microsoft, которое используется для создания, редактирования и форматирования различных документов. Оно предоставляет пользователю широкий спектр инструментов для удобного оформления текста, вставки изображений, таблиц, ссылок и других элементов, что позволяет создавать профессионально выглядящие отчеты, письма, резюме, статьи и даже книги. Благодаря встроенным функциям автоматической проверки орфографии и грамматики, а также возможности использования шаблонов и макросов, Word значительно ускоряет процессы подготовки документов. Программа поддерживает совместную работу, позволяя нескольким пользователям редактировать один документ одновременно, а также сохранять файлы в облаке для доступа с разных устройств. Microsoft Word является неотъемлемой частью офисного пакета Microsoft Office и широко используется как в деловой, так и в образовательной сфере.</p>
+      <h2>Основные функции Microsoft Word:</h2>
+      <ul>
+        <li>Редактирование текста: написание, вставка, удаление и изменение содержимого.</li>
+      <li>Форматирование: изменение шрифтов, размеров, цвета, стилей (жир, курсив, подчеркнутый).</li>
+      <li>Абзацы и списки: создание нумерованных и маркерных списков.</li>
+      <li>Работа с изображениями: вставка, изменение размера, редактирование изображений.</li>
+      <li>Таблицы: создание и оформление таблиц.</li>
+      <li>Орфография и грамматика: проверка ошибок.</li>
+      <li>Вставка ссылок, гиперссылок и примечаний.</li>
+      <li>Использование шаблонов для ускорения оформления.</li>
+      <li>Сотрудничество: совместная работа над документами через облако (OneDrive).</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Word доступен на Windows, macOS, а также в веб-версии через Microsoft 365.</p>
+    </div>
+
+    <div id="app-excel" class="details" data-appdetail="excel">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Excel</h2>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" alt="Microsoft Excel" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Excel — это программное обеспечение для обработки данных, разработанное компанией Microsoft, которое широко используется для создания, редактирования и анализа таблиц. В основе своей работы Excel представляет собой электронную таблицу, которая состоит из множества строк и столбцов, формирующих ячейки, каждая из которых может содержать текст, числа, формулы или другие данные. Основной функцией Excel является автоматическое выполнение расчетов и обработка информации с помощью встроенных функций и формул, что значительно облегчает анализ и визуализацию данных. Пользователи могут создавать графики, диаграммы, сводные таблицы и отчеты, что позволяет получать обобщенные представления и делать выводы на основе больших объемов информации. Интерфейс программы включает ленту инструментов, панели и меню, предоставляющие доступ к различным функциям и настройкам, а также возможность настройки внешнего вида таблиц. Благодаря гибкости, поддержке макросов и расширенных возможностей автоматизации, Excel является незаменимым инструментом для бухгалтерии, аналитиков, ученых, студентов и бизнес-профессионалов, обеспечивая высокую производительность и точность при работе с данными.</p>
+      <h2>Основные функции Microsoft Excel:</h2>
+      <ul>
+        <li>Работа с электронными таблицами для организации данных</li>
+      <li>Использование формул и функций для вычислений</li>
+      <li>Сортировка и фильтрация информации</li>
+      <li>Работа с изображениями: вставка, изменение размера, редактирование изображений.</li>
+      <li>Таблицы: создание и оформление таблиц.</li>
+      <li>Создание диаграмм и графиков</li>
+      <li>Автоматизация задач через макросы</li>
+      <li>Анализ и визуализация данных</li>
+      <li>Сотрудничество: совместная работа над документами через облако (OneDrive).</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Excel доступен на Windows, macOS, а также в веб-версии через Microsoft 365.</p>
+  
+    </div>
+
+    <div id="app-powerpoint" class="details" data-appdetail="powerpoint">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft PowerPoint</h2>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png" alt="Microsoft PowerPoint" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft PowerPoint — это программа для создания презентаций, разработанная компанией Microsoft. Она широко используется для подготовки и демонстрации слайд-шоу, учебных и бизнес-презентаций. В PowerPoint пользователи могут создавать слайды с текстом, изображениями, графиками, таблицами, видео и анимациями, делая информацию более привлекательной и понятной для аудитории. Программа предлагает разнообразные шаблоны и инструменты оформления, что позволяет легко создавать профессиональные презентации. Кроме того, PowerPoint поддерживает добавление эффектов переходов и анимаций, что помогает сделать демонстрацию более динамичной. Возможность работать в команде, обмениваться файлами и просматривать презентации на разных устройствах делает PowerPoint важным инструментом для обучения, конференций, бизнес-встреч и многих других сфер деятельности.</p>
+     <h2>Основные функции Microsoft PowerPoint:</h2>
+    <ul>
+      <li>Создание и оформление слайдов</li>
+      <li>Вставка текста, изображений, видео и аудио</li>
+      <li>Использование шаблонов и тем оформления</li>
+      <li>Добавление анимаций и эффектов переходов</li>
+      <li>Создание графиков и таблиц</li>
+      <li>Настройка времени и порядка показа слайдов</li>
+      <li>Совместная работа и обмен файлами в облаке</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>PowerPoint доступен на Windows, macOS, а также в веб-версии через Microsoft 365.</p>
+    </div>
+
+    <div id="app-outlook" class="details" data-appdetail="outlook">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Outlook</h2>
+     <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png" alt="Microsoft Outlook" class="app-img" style="width: 300px; height: 300px;"></p>
+     <p>Microsoft Outlook — это комплексное приложение, предназначенное для управления электронной почтой, календарями, контактами и задачами, что делает его одним из ключевых инструментов для корпоративной и личной организации информации. Основное назначение Outlook — упрощение коммуникации и планирования, а также повышение эффективности работы. Программа позволяет пользователям легко отправлять, получать и управлять электронными письмами, а также читать и отвечать на сообщения в удобном интерфейсе. В Outlook реализована фильтрация и сортировка писем, автоматические правила обработки входящих сообщений, настройка папок и оповещений, что помогает держать почтовый ящик аккуратным и организованным. Также есть возможность создавать макросы и шаблоны для ускорения повторяющихся операций.Календарь Outlook позволяет планировать встречи, события и напоминания, делая информацию о расписании легко доступной и синхронизируемой между устройствами. Он поддерживает создание нескольких календарей, совместное использование и приглашения на встречи, что особенно важно для командной работы.</p>    
+  <h2>Основные функции Microsoft Outlook:</h2>
+    <ul>
+      <li>Управление электронной почтой: отправка, получение и сортировка сообщений</li>
+      <li>Организация календаря: планирование встреч, событий и напоминаний</li>
+      <li>Создание и управление задачами и списками дел</li>
+      <li>Управление контактами: хранение и быстрый доступ к информации о людях и организациях</li>
+      <li>Инструменты для автоматической обработки и фильтрации писем</li>
+      <li>Поддержка нескольких почтовых аккаунтов и синхронизация устройств</li>
+      <li>Интеграция с другими приложениями Microsoft Office и службами (Teams, OneDrive)</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Outlook доступен на Windows, macOS, а также в виде облачного веб-приложения — Outlook Online (часть Outlook.com и Microsoft 365).</p>
+    </div>
+
+    <div id="app-onenote" class="details" data-appdetail="onenote">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft OneNote</h2>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg/1200px-Microsoft_Office_OneNote_%282019%E2%80%93present%29.svg.png" alt="Microsoft OneNote" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft OneNote — это приложение для создания, организации и хранения заметок, разработанное компанией Microsoft. Оно предназначено для сбора и структурирования разнородной информации — текста, изображений, рукописных заметок, аудио и видео — в единое цифровое пространство. OneNote позволяет пользователям быстро записывать идеи, вести дневники, создавать планы и собирать важные данные в удобной и гибкой форме.</p>    
+  <h2>Основные функции Microsoft OneNote:</h2>
+    <ul>
+      <li>Создание и организация блокнотов, разделов и страниц</li>
+      <li>Ведение рукописных и текстовых заметок</li>
+      <li>Вставка изображений, аудио, видео и файлов</li>
+      <li>Использование таблиц и списков</li>
+      <li>Совместная работа и редактирование в реальном времени</li>
+      <li>Поиск по всему содержимому блокнотов</li>
+      <li>Вставка гиперссылок и примечаний</li>
+      <li>Интеграция с другими приложениями Microsoft Office и облачными сервисами (OneDrive, Teams)</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>OneNote доступен на Windows, macOS, а также в виде облачного веб-приложения OneNote Online.</p>
+    </div>
+
+    <div id="app-access" class="details" data-appdetail="access">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Access</h2>
+      <p><img src="https://abovacademy.com/wp-content/uploads/2023/01/microsoft-access-2013.svg" alt="Microsoft Access" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Access — это система управления базами данных (СУБД), которая облегчает создание, управление и анализ структурированных данных без необходимости глубокого знания программирования. Она предназначена для автоматизации бизнес-процессов, учета информации, хранения данных и формирования отчетов.Access подходит для небольших и средних по масштабу проектов, когда нужен быстрый и удобный способ организации информации без необходимости развертывания больших серверных систем.</p>    
+  <h2>Основные функции Microsoft Access:</h2>
+    <ul>
+      <li>Создание и управление таблицами данных</li>
+      <li>Построение форм для удобного ввода и просмотра информации</li>
+      <li>Формирование запросов для поиска, фильтрации и обработки данных</li>
+      <li>Создание отчетов для вывода и анализа информации</li>
+      <li>Установка связей между таблицами для обеспечения целостности данных</li>
+      <li>Автоматизация задач с помощью макросов и VBA (Visual Basic for Applications)</li>
+      <li>Импорт и экспорт данных из/в различные источники (Excel, SharePoint, текстовые файлы)</li>
+      <li>Обеспечение пользовательского доступа и безопасность данных</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Access доступен только на Windows,но может использоваться совместно с облачными решениями через Microsoft 365.</p>
+    </div>
+
+    <div id="app-publisher" class="details" data-appdetail="publisher">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Publisher</h2>
+     <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Microsoft_Office_Publisher_%282019-present%29.svg/1200px-Microsoft_Office_Publisher_%282019-present%29.svg.png" alt="Microsoft Publisher" class="app-img" style="width: 300px; height: 300px;"></p>
+     <p>Microsoft Publisher — это программное обеспечение для настольной издательской деятельности (desktop publishing), разработанное компанией Microsoft. Оно предназначено для создания профессионально выглядящих публикаций и печатных материалов, таких как буклеты, брошюры, флаеры, визитки, плакаты и рассылки. Publisher предлагает пользователям широкий выбор готовых шаблонов и инструментов для оформления макетов, позволяя легко работать с текстом, изображениями, графикой и элементами дизайна без необходимости иметь глубокие навыки в сфере графического дизайна. Программа поддерживает точное позиционирование объектов на странице, работу со слоями и настройку цветов, что делает её удобной для подготовки разнообразных печатных и цифровых материалов.Кроме того, Microsoft Publisher интегрируется с другими приложениями Microsoft Office и позволяет экспортировать готовые публикации в различные форматы для печати или публикации в интернете.</p>    
+  <h2>Основные функции Microsoft Publisher:</h2>
+    <ul>
+      <li>Создание и редактирование макетов для печатных и цифровых изданий (буклеты, плакаты, брошюры, визитки и пр.)</li>
+      <li>Использование готовых шаблонов и мастер‑шаблонов для быстрого старта работы</li>
+      <li>Точная настройка расположения и форматирования текста, изображений и графических объектов</li>
+      <li>Поддержка работы со слоями и группировкой элементов для удобства дизайна</li>
+      <li>Инструменты для вставки и редактирования изображений, включая обрезку и изменение размера</li>
+      <li>Настройка цветовых схем, шрифтов и стилей для единообразного оформления</li>
+      <li>Импорт и экспорт файлов в популярных форматах (PDF, JPG, PNG)</li>
+      <li>Подготовка публикаций к профессиональной печати с учётом разметки и цветового профиля</li>
+      <li>Интеграция с другими приложениями Microsoft Office для удобного обмена данными</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Publisher доступен на Windowsи и входит в состав некоторых комплектаций Microsoft 365.</p>
+    </div>
+
+    <div id="app-teams" class="details" data-appdetail="teams">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Teams</h2>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/1200px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" alt="Microsoft Teams" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Teams — это платформа для совместной работы и коммуникации, разработанная компанией Microsoft. Она объединяет в одном интерфейсе функции для обмена сообщениями, видеоконференций, звонков, совместного редактирования файлов и организации рабочих пространств.</p>    
+  <h2>Основные функции Microsoft Teams:</h2>
+    <ul>
+      <li>Мгновенные сообщения и чаты</li>
+      <li>Чаты и каналы для общения</li>
+      <li>Видеоконференции и звонки</li>
+      <li>Совместное редактирование файлов</li>
+      <li>Интеграция с приложениями и сервисами</li>
+      <li>Хранение и обмен файлами</li>
+      <li>Планирование задач и напоминаний</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Teams доступен на Windows, macOS, iOS, Android и через веб-браузеры.</p>
+  </main>
+    </div>
+
+    <div id="app-onedrive" class="details" data-appdetail="onedrive">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>OneDrive</h2>
+      <p><img src="https://cloudmounter.net/wp-content/uploads/2024/12/onedrive-1024x576.jpg" alt="Microsoft OneDrive" class="app-img" style="width: 400px; height: 300px;"></p>
+    <h2>Описание</h2>
+      <p>Microsoft OneDrive — это облачное хранилище данных от компании Microsoft, позволяющее сохранять файлы в интернете и получать к ним доступ с любого устройства. Оно обеспечивает безопасное хранение данных и возможность совместной работы.</p>    
+  <h2>Основные функции Microsoft OneDrive:</h2>
+    <ul>
+      <li>Хранение и резервное копирование файлов</li>
+      <li>Доступ к файлам с любого устройства и из любого места</li>
+      <li>Совместное редактирование документов в реальном времени</li>
+      <li>Операции с файлами (копирование, перемещение, удаление)</li>
+      <li>Совместное использование ссылок и управление правами доступа</li>
+      <li>Интеграция с Microsoft 365 и другими приложениями</li>
+      <li>Автоматическая синхронизация данных между устройствами</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>OneDrive доступен на Windows, macOS, iOS, Android и веб-браузеры.</p>
+    </div>
+
+    <div id="app-sharepoint" class="details" data-appdetail="sharepoint">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>SharePoint</h2>
+      <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt0WIiLfY2fqHKOWO_jDOoHVhFU_t9QSZKEg&s" alt="Microsoft SharePoint" class="app-img" style="width: 300px; height: 300px;"></p>
+    <h2>Описание</h2>
+      <p>Microsoft SharePoint — это платформа для совместной работы и управления корпоративными данными, которая позволяет создавать внутренние сайты, автоматизировать бизнес-процессы, хранить и обмениваться корпоративной информацией, а также управлять документами и контентом в организации. SharePoint широко используется для организации внутренних порталов, систем совместной работы, хранения документов, автоматизации рабочих процессов и обмена знаниями внутри компании.</p>    
+  <h2>Основные функции Microsoft SharePoint:</h2>
+    <ul>
+      <li>Создание и управление корпоративными сайтами и портальными страницами</li>
+      <li>Хранение, организация и совместное редактирование документов</li>
+      <li>Управление версиями и контролем доступа к файлам</li>
+      <li>Автоматизация бизнес-процессов с помощью рабочих потоков (flows)</li>
+      <li>Общий доступ и обмен информацией внутри организации</li>
+      <li>Организация поиска по корпоративной информации</li>
+      <li>Настраиваемые рабочие пространства и портал для сотрудников</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>SharePoint доступен на Windows, macOS, Linux, iOS, Android и веб-браузеры, также есть мобильные приложения для iOS и Android.</p>
+    </div>
+
+    <div id="app-visio" class="details" data-appdetail="visio">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Visio</h2>
+      <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Microsoft_Office_Visio_%282019%29.svg/1200px-Microsoft_Office_Visio_%282019%29.svg.png" alt="Microsoft Visio" class="app-img" style="width: 300px; height: 300px;"></p>
+     <p>Microsoft Visio — это программное обеспечение для создания diagrams, схем, блок-схем, архитектурных и бизнес-моделированных диаграмм. Оно предназначено для визуализации сложных данных, процессов и структур, что помогает легче понять и представить информацию.</p>    
+  <h2>Основные функции Microsoft Visio:</h2>
+    <ul>
+      <li>Создание разнообразных диаграмм и схем (блок-схемы, организационные диаграммы, планы помещений, сетевые схемы и др.)/li>
+      <li>Использование готовых шаблонов и фигур для быстрого начала работы</li>
+      <li>Импорт данных для автоматического создания диаграмм (например, на основе Excel или баз данных)</li>
+      <li>Совместное редактирование и обмен проектами</li>
+      <li>Настройка стилей, цветов и элементов дизайна</li>
+      <li>Интеграция с другими приложениями Microsoft 365</li>
+      <li>Экспорт диаграмм в разные форматы (PDF, PNG, SVG и др.)</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Visio доступен на Windows и веб-браузерах, также есть мобильные приложения для iOS и Android.</p>
+    </div>
+
+    <div id="app-project" class="details" data-appdetail="project">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Project</h2>
+      <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC4acrD0q110pSYKdf4IBTxHTraqUpKABvrw&s" alt="Microsoft Project" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Project — это профессиональное программное обеспечение для управления проектами, разработанное компанией Microsoft. Оно предназначено для планирования, организации и контроля выполнения проектов различной сложности, помогает менеджерам эффективно распределять ресурсы, следить за сроками, бюджетом и прогрессом задач. Благодаря широкому набору инструментов Microsoft Project позволяет создавать детализированные графики, диаграммы Ганта, отслеживать зависимости между задачами, оценивать риски и формировать отчеты для анализа текущего состояния проекта.</p>    
+  <h2>Основные функции Microsoft Project:</h2>
+    <ul>
+      <li>Планирование и расписание проектов с использованием диаграмм Ганта</li>
+      <li>Управление задачами, ресурсами и рабочими нагрузками</li>
+      <li>Отслеживание сроков, бюджета и прогресса выполнения работ</li>
+      <li>Создание отчетов и аналитика хода проекта</li>
+      <li>Управление зависимостями между задачами и критическим путем</li>
+      <li>Интеграция с другими приложениями Microsoft 365</li>
+      <li>Календарное планирование и настройка уведомлений</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Project доступен на Windows и веб-браузерах, доступны через интеграцию с приложениями Microsoft 365 и Microsoft Planner, а также через мобильные версии веб-версии.</p>
+    </div>
+
+    <div id="app-yammer" class="details" data-appdetail="yammer">
+      <a href="#" class="back-btn" data-back>← Назад к списку приложений</a>
+      <h2>Microsoft Yammer</h2>
+      <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVkg6Ehz_ILIScG7r-8YmhM3ByA-V7IG4wpQ&s" alt="Microsoft Yammer" class="app-img" style="width: 300px; height: 300px;"></p>
+      <p>Microsoft Yammer — это корпоративная социальная сеть, предназначенная для коммуникации, обмена знаниями и сотрудничества внутри организации. Она позволяет сотрудникам создавать сообщества, делиться новостями, идеями, файлами и участвовать в обсуждениях, что способствует развитию корпоративной культуры и улучшению взаимодействия между командами.</p>    
+  <h2>Основные функции Microsoft Yammer:</h2>
+    <ul>
+      <li>Создание и управление группами и сообществами</li>
+      <li>Обмен сообщениями, постами и комментариями</li>
+      <li>Деление новостями, объявлениями и важной информацией</li>
+      <li>Совместное использование файлов и документов</li>
+      <li>Обсуждения, опросы и голосования для вовлечения сотрудников</li>
+      <li>Интеграция с другими приложениями Microsoft 365</li>
+      <li>Поиск и фильтрация по темам, людям и контенту</li>
+    </ul>
+    <h2>О платформе</h2>
+    <p>Yammer доступен на Windows и веб-браузерах, доступны через интеграцию с приложениями Microsoft 365, мобильные приложения для iOS и Android,</p>
+    </div>
+
+  </main>
+
+  <footer>
+  </footer>
+
+  <script>
+    // Search
+    const input = document.getElementById('site-search');
+    const cards = Array.from(document.querySelectorAll('#apps-grid .card'));
+    input.addEventListener('input', (e) => {
+      const q = e.target.value.trim().toLowerCase();
+      cards.forEach(card => {
+        const name = card.querySelector('h3').textContent.toLowerCase();
+        const hidden = Array.from(card.querySelectorAll('.hidden-text')).map(el => el.textContent.toLowerCase()).join(' ');
+        if (!q || name.includes(q) || hidden.includes(q)) card.style.display = '';
+        else card.style.display = 'none';
+      });
+    });
+
+    const details = Array.from(document.querySelectorAll('.details'));
+    function showApp(name){
+      document.getElementById('apps-grid').style.display = 'none';
+      details.forEach(d=>d.classList.remove('active'));
+      const target = document.querySelector(`.details[data-appdetail="${name}"]`);
+      if(target){
+        target.classList.add('active');
+        window.scrollTo({top: target.offsetTop - 20, behavior: 'smooth'});
+      }
+    }
+
+    function showGrid(){
+      document.getElementById('apps-grid').style.display = '';
+      details.forEach(d=>d.classList.remove('active'));
+      window.scrollTo({top:0, behavior:'smooth'});
+    }
+
+    cards.forEach(card=>{
+      card.addEventListener('click', ()=>{
+        const name = card.dataset.app;
+        showApp(name);
+      });
+    });
+
+    document.querySelectorAll('[data-back]').forEach(btn=>{
+      btn.addEventListener('click', (e)=>{ e.preventDefault(); showGrid(); });
+    });
+
+    window.addEventListener('keydown', (e)=>{ if(e.key === '/'){ e.preventDefault(); input.focus(); } });
+  </script>
+</body>
+</html>
